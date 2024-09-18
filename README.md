@@ -8,3 +8,4 @@
 * **HTML 5** 
 * **CSS**
 * **PHP**
+\<div class = "bandeau"> texte affiché sur le bandeau \</div>.
