@@ -9,4 +9,4 @@
 * **CSS**
 * **PHP**
 
-[center]Profitez bien[/center]
+<p style="text-align: center;">Profitez bien</p>
