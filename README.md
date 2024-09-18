@@ -8,4 +8,4 @@
 * **HTML 5** 
 * **CSS**
 * **PHP**
-[center]Profitez bien ! [/center]
+[center]Profitez bien ![/center]
