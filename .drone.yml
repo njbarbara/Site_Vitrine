@@ -35,3 +35,4 @@ steps:
         CONTAINERNAME: mon_portfolio
         COMMAND: create
         OVERWRITE: true
+        CODEFIRST_CLIENTDRONE_ENV_CONTAINER_PATH: najib.barbara-portfolio/
