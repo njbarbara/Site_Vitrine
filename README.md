@@ -8,5 +8,4 @@
 * **HTML 5** 
 * **CSS**
 * **PHP**
-
-<p style="text-align: center;">Profitez bien</p>
+<p style="text-align: center;">Profitez bien ! </p>
