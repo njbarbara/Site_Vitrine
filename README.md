@@ -1,5 +1,8 @@
-[![Build Status](https://codefirst.iut.uca.fr/api/badges/najib.barbara/mon_portfolio/status.svg)](https://codefirst.iut.uca.fr/najib.barbara/mon_portfolio)  
+# Bienvenue sur mon Portfolio
 
-# mon_portfolio
+## 🌎 Visitez le site
 
-A simple template for a web site.
+## 📚 Langage utilisé 
+* **HTML 5** 
+* **CSS**
+* **PHP**
