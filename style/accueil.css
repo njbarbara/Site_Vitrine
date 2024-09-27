@@ -16,20 +16,8 @@ section{
     margin-right: 15em;
     margin-left: 15em;
 
-    /*laisser de l'espace entre la bordure*/
-    padding: 20px;
+    padding: 1em;
 
-    border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-    background-color: rgba(255, 255, 255, 0.1);
-
-
-    /*ombre sur la bordure*/
-    /*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
-    /*aligner le texte*/
     text-align: center;
     z-index: 1;
 
@@ -65,12 +53,58 @@ ul{
 
 
 section aside ul a  {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
+
     display: inline-block;
     text-align: center;
+    align-content: center;
     justify-content: center;
+
     text-decoration: blue underline;
+    color: rgba(255, 255, 255, 0.5);
+
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.decoration {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 0; 
+    margin-top: -0.5em;
+    margin-left: 2em; 
+    color: white;
+    font-size: 1.8em;
+   
+}
+
+
+
+
+nav.Menu .navigation .decoration .clignotement{
+    animation: clignotage 1s infinite ;
+}
+
+
+article{
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .article1{
@@ -89,5 +123,8 @@ section aside ul a  {
 }
 
 
-
+@keyframes clignotage {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 
