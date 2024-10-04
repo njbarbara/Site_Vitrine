@@ -27,9 +27,6 @@ section{
     display: grid;
     gap: 2em;
     grid-template-columns: repeat(4, 1fr);
-
-
-
 }
 
 p{
@@ -91,14 +88,6 @@ section aside ul a  {
    
 }
 
-
-
-
-nav.Menu .navigation .decoration .clignotement{
-    animation: clignotage 1s infinite ;
-}
-
-
 article{
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -123,8 +112,4 @@ article{
 }
 
 
-@keyframes clignotage {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 
