@@ -107,22 +107,19 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
-}
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: stretch;
-    padding: 0;
 }
 
 footer img{
-    width: 30%;
-    height: auto;
+    width: 3em; 
+    height: 3em; 
+    object-fit: contain; 
 }
 
 footer a {
     padding: 0;
-    display: inline-block;
+    margin: 0;
+    width: 5%;
 }
+
 
