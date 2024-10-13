@@ -24,6 +24,7 @@ header {
     background: rgba(0, 0, 5, 0.5);
     position: sticky;
     top:0;
+    left: 0;
     
     z-index: 1;
     padding-bottom: 1.5em;
@@ -40,13 +41,13 @@ nav ul li a{
     font-size: 1.1em;
 }
 
-
-
 a{
     text-decoration: none;  
-
 }
 
+nav.Menu .navigation a:hover {
+    border-color: white;
+}
 
 @keyframes BackgroundAnimation {
     from   { opacity: 0; }

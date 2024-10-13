@@ -24,22 +24,68 @@
     </header>
 
     
-    <section>
-
-        <figure class="imgTf2">
-            <img src="../image/galerie/tf2-logo.png" alt="Image du logo team fortress"/>
-            <figcaption>Mon jeu préféré</figcaption>
-        </figure>
-
-        <figure class="imgFactorio">
-            <img src="../image/galerie/factorio.png" alt="Image du logo factorio" />
-            <figcaption>Le jeu auquel je joue régulièrment</figcaption>
-        </figure>
-
+</header>
+        <video autoplay muted loop id="videoBackground">
+            <source src="../background-Video/Sugar.mp4" type="video/mp4">
+        </video>
+    <section class="content">
+        <!--
+        <ul>
+            <li> <a href="https://www.facebook.com/"> <img src="Images/fb_logo.png" class="logo_facebook"></a></li>
+            <li><a href="https://twitter.com/?lang=en"> <img src="Images/twitter_logo.png" class="twitter_logo"></a></li>
+            <li><a href="https://gmail.com/"><img src="Images/" class="gmail_logo"></a></li>
+        </ul>  -->  
+        <form action="Contact.php" method="POST">
+            <ul>
+              <li>
+                <label for="nom" required>Nom : </label>
+                <input type="text" id="name" name="nom" />  
+              </li>
+              <li>
+                <label for="email">E-mail:</label>
+                <input type="email" id="mail" name="email" rows="10" cols="30" required/>
+              </li>
+              
+              <li>
+                  <label for="motif">Motif  de contact :</label>
+      
+                  <select name="motif" id="motif">
+                    <option value="trav1">Vous souhaitez m'embaucher en cdd ou en cdi</option>
+                    <option value="trav2">Vous avez besoin d'un site web pour votre commerce</option>
+                    <option value="trav3">Vous avez besoin de soutien scolaire</option>
+      
+                  </select>
+      
+              </li>
+              <li>
+                  <label for="creneau">Créneau horaire : </label>
+                  <input type="datetime-local" id="creneau" name="creneau"/>  
+              </li>
+              <li>
+                  <legend>Première demande : </legend>
+                  <label for="btn1">Oui </label>
+                  <input type="radio" id="btn1" name="btn"  value="oui" checked/>  
+              </li>
+              <li>
+                  <label for="btn2">Non</label>
+                  <input type="radio" id="btn2" name="btn" value="non"/>  
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="msg" required></textarea>
+              </li>
+              <li>
+                  <input type="reset" id="btn3" name="recharger" value="Recharger le formulaire"/> 
+              </li>
+              <li>
+                <input type="submit" name="envoyer">
+              </li>
+            </ul>
+          
+          </form>
     </section>
 
-    <footer></footer>
-
+    
 </body>
 
 </html>

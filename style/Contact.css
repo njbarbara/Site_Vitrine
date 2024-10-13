@@ -1,0 +1,62 @@
+@import url(VideoBackground.css);
+@import url(Header.css);
+@import url(body.css);
+
+.section{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+form{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+    border-radius: 10px; 
+
+    color: white;
+    font-size: 1em;
+    text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    grid-column: 2;
+
+    width: 35%;
+
+    margin-top: 6em;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+textarea, input:not(input[type="radio"]), select {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    font-size: 1em;
+    margin-top: 8px;     
+}
+
+textarea, input, select{
+    background-color: transparent;
+
+}
+  
+form li{
+    text-align: center;
+    font-size: 1.3em;
+    width: 25em;
+    list-style: none; 
+    margin-top: 1em;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    transition: 1s;
+    scale: 1.05;
+}
