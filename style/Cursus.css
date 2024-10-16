@@ -51,19 +51,6 @@ article{
     grid-column: 2/3;
 }
 
-.Text1 h2{
-    grid-row: 0;
-}
-
-.Text1 p{
-    grid-row: 1;
-}
-
-img[src="../image/Cursus-Img/College.jpg"]{
-    grid-row: 0/1;
-}
-
-
 p{
     display: flex;
     justify-content: center;
