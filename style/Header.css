@@ -49,6 +49,12 @@ nav.Menu .navigation a:hover {
     border-color: white;
 }
 
+header a:hover{
+    border-bottom: 3px solid transparent;
+    border-color: white;
+
+}
+
 @keyframes BackgroundAnimation {
     from   { opacity: 0; }
     to { opacity: 1; }
