@@ -3,7 +3,7 @@
 @import url(body.css);
 
 .section{
-  grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 form{
@@ -24,30 +24,34 @@ form{
     justify-content: center;
     align-items: center;
 
-    grid-column: 2;
 
     width: 35%;
 
     margin-top: 6em;
     margin-bottom: 1em;
-    padding-bottom: 2em;
+    padding: 2em;
 }
 
 textarea, input:not(input[type="radio"]), select {
     height: 50px;
-    width: 90%;
     padding: 0 10px;
     border-radius: 10px;
     border: 1px solid silver;
     font-size: 1em;
     margin-top: 8px;     
+    display: block;
+    width: 25em;
 }
 
 textarea, input, select{
     background-color: transparent;
-
 }
-  
+
+input{
+    display: block;
+    width: 30%;
+}
+
 form li{
     text-align: center;
     font-size: 1.3em;

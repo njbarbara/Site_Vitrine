@@ -14,7 +14,6 @@ ul a{
     text-decoration: none;  
 
     margin-right: 2em;
-    position: static;
 
 }
 
@@ -30,14 +29,13 @@ header {
     padding-bottom: 1.5em;
     padding-top: 1.5em;
 
-    animation: BackgroundAnimation 2s;    
+    animation: BackgroundAnimation 2s; 
+
 
 }
 
 nav ul li a{
     color: white;
-
-    position: relative;
     font-size: 1.1em;
 }
 
