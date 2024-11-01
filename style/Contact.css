@@ -1,12 +1,7 @@
-@import url(VideoBackground.css);
-@import url(Header.css);
-@import url(body.css);
+
 
 *{
     color: black;
-}
-.section{
-    grid-template-columns: repeat(3, 1fr);
 }
 
 form{
@@ -17,19 +12,16 @@ form{
     font-size: 1em;
     text-align: center;
 
-    display: block;
     margin: 0 auto;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
 
     display: flex; 
     justify-content: center;
-    align-items: center;
 
 
     width: 35%;
 
-    margin-top: 6em;
+    margin-top: 1em;
     margin-bottom: 1em;
     padding: 2em;
 }
@@ -41,17 +33,11 @@ textarea, input:not(input[type="radio"]), select {
     border: 1px solid silver;
     font-size: 1em;
     margin-top: 8px;     
-    display: block;
-    width: 25em;
-}
-
-textarea, input, select{
+    width: 100%;
+    max-width: 100%;
+    
     background-color: transparent;
-}
 
-input{
-    display: block;
-    width: 30%;
 }
 
 form li{
@@ -64,5 +50,5 @@ form li{
 
 input[type="submit"]:hover, input[type="reset"]:hover{
     transition: 1s;
-    scale: 1.05;
+    scale: 1.3;
 }
