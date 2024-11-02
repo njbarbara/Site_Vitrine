@@ -18,4 +18,5 @@ body, html {
 section{
     margin-top: 3em;
     margin-bottom: 2em;
+    flex: 1;
 }

@@ -1,4 +1,6 @@
-
+/*
+METTRE UN MEDIA QUERY SUR LES IMAGES 
+*/
 
 body {
     background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -28,7 +30,6 @@ figure:hover figcaption {
 section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
     gap: 2em;
 }
 
@@ -60,4 +61,11 @@ img{
 .imgPyro{
     grid-column: 4/5;
     grid-row: 1;
+}
+
+@media all and (max-width: 800px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
 }

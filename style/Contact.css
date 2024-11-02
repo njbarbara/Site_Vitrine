@@ -1,7 +1,9 @@
-
-
 *{
     color: black;
+}
+
+section{
+    flex: 1 ;
 }
 
 form{
@@ -51,4 +53,19 @@ form li{
 input[type="submit"]:hover, input[type="reset"]:hover{
     transition: 1s;
     scale: 1.3;
+}
+
+input[type="email"]:valid {
+    border-color: green;
+}   
+
+input[type="email"]:invalid {
+    border-color: red;
+} 
+
+
+@media screen and (max-width: 800px) {
+    textarea, input:not(input[type="radio"]), select{
+        width: 30%;
+    }
 }
