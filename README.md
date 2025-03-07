@@ -1,12 +1,14 @@
-# Bienvenue sur mon Portfolio
+# Bienvenue sur mon Site Vitrine
 
 ## 🌎 Visiter le site 
 * **Accéder au Portfolio :** _https://codefirst.iut.uca.fr/containers/najibbarbara-mon_portfolio/page/index.html_
+
 ## 🧰 Conception
-* **Lien du contexte :**  _https://codefirst.iut.uca.fr/git/najib.barbara/mon_portfolio/wiki/Contexte_
-* **Lien du diagramme de flux :** _https://codefirst.iut.uca.fr/git/najib.barbara/mon_portfolio/wiki/Diagramme-de-flux-_
-* **Lien des wireframes :**  _https://codefirst.iut.uca.fr/git/najib.barbara/mon_portfolio/wiki/Wireframe_
-* **Lien des personnas :** _https://codefirst.iut.uca.fr/git/najib.barbara/mon_portfolio/wiki/Personna_
+* **Lien du contexte :**  __
+* **Lien du diagramme de flux :** __
+* **Lien des wireframes :**  __
+* **Lien des personnas :** __
+
 ## 📚 Langage utilisé 
 * **HTML 5** 
 * **CSS**
