@@ -4,9 +4,8 @@
 * **Accéder au Portfolio :** _https://codefirst.iut.uca.fr/containers/najibbarbara-mon_portfolio/page/index.html_
 
 ## 🧰 Conception
-* **Lien du contexte :**  __
-* **Lien du diagramme de flux :** __
-* **Lien des wireframes :**  __
+* **Lien du diagramme de flux :** _https://github.com/njbarbara/Site_Vitrine/tree/master/Images-Diagramme_
+* **Lien des wireframes :**  _https://github.com/njbarbara/Site_Vitrine/tree/master/Images-Wireframe_
 * **Lien des personnas :** __
 
 ## 📚 Langage utilisé 
